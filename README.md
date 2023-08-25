@@ -8,7 +8,6 @@ You will learn how to use github, and will learn how to cooperate with other dev
 Calculator is classic and familiar project to students who are studing programing. It's purpose is obvious and good to practice programing skills. You will write the code of calculator using:
 
 - Object Oriented Programing
-- Test Driven Programing
 
 Methologies mentioned above can be used in personal project, but they are also useful in cooperation.
 
@@ -23,6 +22,10 @@ In this project, you will build a calculator. This calculator will interprete yo
 - Parenthesis: "(", ")"
 
 # Update note
+
+## v1.1.0
+
+parenthesis is available
 
 ## v1.0.0
 
