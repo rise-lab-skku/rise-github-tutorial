@@ -1,4 +1,5 @@
 from .four_arithmetic import AddExpression, MulExpression
+from .functions import CosExpression, SinExpression, TanExpression, ExpExpression
 from .parenthesis import ParenthesisExpression
 from .value import (
     ValueExpression,
@@ -15,4 +16,8 @@ __all__ = [
     "PositiveExpression",
     "NegativeExpression",
     "InverseExpression",
+    "CosExpression",
+    "SinExpression",
+    "TanExpression",
+    "ExpExpression",
 ]
