@@ -21,3 +21,9 @@ In this project, you will build a calculator. This calculator will interprete yo
 - operators: "+", "-", "\*", "/"
 - functions: "mod()", "cos()", "sin()", "exp()"
 - Parenthesis: "(", ")"
+
+# Update note
+
+## v1.0.0
+
+four arithmetic operation is functional
