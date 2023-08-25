@@ -7,7 +7,10 @@ from tokenizer import (
     DivTokenType,
     LeftParenthesisTokenType,
     RightParenthesisTokenType,
-    
+    CosTokenType,
+    SinTokenType,
+    TanTokenType,
+    ExpTokenType,
 )
 
 from expressions import (
@@ -18,6 +21,10 @@ from expressions import (
     NegativeExpression,
     InverseExpression,
     ParenthesisExpression,
+    CosExpression,
+    SinExpression,
+    TanExpression,
+    ExpExpression,
 )
 
 
@@ -32,6 +39,10 @@ def create_parser():
                 DivTokenType(),
                 LeftParenthesisTokenType(),
                 RightParenthesisTokenType(),
+                CosTokenType(),
+                SinTokenType(),
+                TanTokenType(),
+                ExpTokenType(),
             ]
         )
     )
@@ -117,5 +128,17 @@ class Parser:
         elif token.type == "left_parenthesis":
             self.tokenizer.advance()
             return ParenthesisExpression(self.parse_expression())
+        elif token.type == "cos":
+            self.tokenizer.advance()
+            return CosExpression(self.parse_factor())
+        elif token.type == "sin":
+            self.tokenizer.advance()
+            return SinExpression(self.parse_factor())
+        elif token.type == "tan":
+            self.tokenizer.advance()
+            return TanExpression(self.parse_factor())
+        elif token.type == "exp":
+            self.tokenizer.advance()
+            return ExpExpression(self.parse_factor())
         else:
             raise Exception("parse error")
