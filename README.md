@@ -18,10 +18,14 @@ In this project, you will build a calculator. This calculator will interprete yo
 - command line interface
 - equation interpreter
 - operators: "+", "-", "\*", "/"
-- functions: "mod()", "cos()", "sin()", "exp()"
+- functions: "cos()", "sin()", "tan()", "exp()"
 - Parenthesis: "(", ")"
 
 # Update note
+
+## v1.2.0
+
+"cos()", "sin()", "tan()", "exp()" functions are available
 
 ## v1.1.0
 
