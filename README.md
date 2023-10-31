@@ -5,7 +5,7 @@ You will learn how to use github, and will learn how to cooperate with other dev
 
 ## Programing subject: Calculator
 
-Calculator is classic and familiar project to students who are studing programing. It's purpose is obvious and good to practice programing skills. You will write the code of calculator using:
+Calculator is classic and familiar project to students who are studing programing. Its purpose is obvious and good to practice programing skills. You will write the code of calculator using:
 
 - Object Oriented Programing
 
